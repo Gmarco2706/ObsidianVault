@@ -46,4 +46,5 @@
 					 Se si utilizza `x[i:j]` si visualizzano gli elementi del vettore x dalla posizione i alla j, mentre con `x[-i:j]` si crea un nuovo vettore contenente tutti gli elementi di x esclusi gli elementi dalla posizione i alla posizione j
 **ARRAY E MATRICI**
 	**LISTE**
-		Una lista è una struttura dati in R che può contenere **elementi eterogenei** a differenza degli array. Nella pratica array e vettori possono risultare molti simili, molto spesso gli array vengono indicati come **vector structure** 
+		Una lista è una struttura dati in R che può contenere **elementi eterogenei** a differenza degli array. Nella pratica array e vettori possono risultare molti simili, molto spesso gli array vengono indicati come **vector structure** semplicemente un array apre alla possibilità di specificare un ulteriore parametro che ne definisce la dimensione.
+		 In particolare in un array tridimensionale "a"  `a[i,j,k]` è l'elemento nella posizione (i,j,k) dell'array
