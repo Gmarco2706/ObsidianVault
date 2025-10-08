@@ -122,3 +122,21 @@
 		 - start: il punto di inizio della sottoserie
 		 - end: il punto di fine della sottoserie
 	**TS STUDIO**
+		è una libreria avanzata per R specializzata nell'analisi e nella visualizzazione di serie temporali, è progettata per fornire un insieme completo di strumenti per lavorare con dati temporali in modo efficiente e intuitivo TS studio è:
+		- un toolkit integrato 
+		- interfaccia user-friendly
+		- ponte tra analisi e visualizzazione
+	**BARPLOT**
+		Un barplot è una rappresentazione grafica che utilizza barre di lunghezza variabile per mostrare le frequenze o altre misure quantitative, i barplot servono per:
+		- Comparazione
+		- visualizzazione di dati aggregati
+		- rappresentazione di distribuzione
+		è utilizzato per dati categoriali per rappresentare aggregazioni di dati, ci sono vari tipi di barplot:
+		- tradizionali
+		![[Pasted image 20251008143650.png]]
+		- Grouped BarPlot
+		![[Pasted image 20251008143733.png]]
+		-Stacked barPlot
+		![[Pasted image 20251008143914.png]]
+		
+		 
