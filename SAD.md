@@ -110,3 +110,15 @@
 		 Una serie temporale è una sequenza di osservazioni di una variabile raccolte e registrate ad intervalli di tempo regolari, l'obiettivo è quello di analizzare i dati per identificare pattern o tendenze che possano aiutare a fare previsioni sul futuro **(forecasting)**.
 		 Una **serie temporale univariata** analizza **una sola variabile** misurata nel tempo, ponendo l'attenzione sulla dinamica temporale di una singola quantità![[Pasted image 20251008142217.png]]
 		 Una serie temporale può essere memorizzata in un vettore **se i dati sono univariati** o  in una matrice se sono **multivariati**, R dispone di una specifica funzione `ts()` per rappresentare i valori di una serie temporale insieme ad alcune altre caratteristiche
+		 `y <- ts(x, start =, frequency =, deltat=, end=)` dove:
+		 - x: valori della serie 
+		 - start: istante iniziale temporale
+		 - frequency: numero di osservazioni nell'unità di tempo 
+		 - deltat: la distanza temporale tra le osservazioni
+		 - end: istante finale
+		 La funzione `window()` è utile per lavorare con serie temporali quando si vuole isolare o analizzare un sottoinsieme di dati temporali, il comando è `window(x,start,end)`
+		 dove:
+		 - x: oggetto di tipo ts da cui estrarre una sottoserie 
+		 - start: il punto di inizio della sottoserie
+		 - end: il punto di fine della sottoserie
+	**TS STUDIO**
