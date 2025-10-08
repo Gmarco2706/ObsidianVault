@@ -52,6 +52,20 @@
 		 La sostanziale differenza tra array e vettori è il fatto che gli array possono avere più dimensioni, un array viene creato tramite `array()` specificando le dimensioni.
 		 Gli array sono utili quando è necessario fornire differenti informazioni per identificare un elemento, una matrice non è che un array bidimensionale di elementi univocamente determinati da una coppia di numeri interi ovvero gli indici di riga e colonna.
 		 **MATRICI**
-			 se si vuole costruire una matrice n 
-		 
+			 se si vuole costruire una matrice n × m con tutti gli elementi nulli si può utilizzare il comando `matrix()` se si vuole accedere all'elemento (i,j) si usa `a[i,j]` mentre con `a[,j]` si selezionano gli elementi della j-esima colonna e viceversa con gli elementi della i-esima riga.
+			 Per riempire una matrice si usano le funzioni `cbind()` e `rbind()` che permettono di creare opportune matrici componendo vettori di uguale lunghezza e matrici delle stesse dimensioni, la prima funzione crea le colonne con i vettori e la seconda funzione crea le righe con i vettori.
+			 La funzione `diag()` cambia l'output a seconda del suo input:
+			 - `diag(v)` con v vettore è usata per creare una matrice diagonale con gli elementi del vettore sulla diagonale e i restanti elementi nulli
+			 - `diag(a)` con a matrice fornisce un vettore costruito dagli elementi della diagonale principale della matrice
+			 - `diag(n)` con n intero fornisce la matrice di identità n×m
+			 Le funzioni `rownames(a)` `colnames(a)` restituiscono o impostano i nomi delle righe e delle colonne di una matrice o di un dataframe 
+			 **OPERAZIONI**
+				 R interpreta i suoi vettori come vettori colonna, per effettuare una trasposizione di un vettore o di una matrice si usa la funzione `t()` di trasposizione, sui vettori e sulle matrici delle stesse dimensioni si applicano le usuali operazioni aritmetiche come somma prodotto differenza ecc.
+				 **PRODOTTO MATRICIALE**
+					 R fornisce la possibilità di effettuare il prodotto matriciale tra due matrici a di dimensioni n × m e b di dimensione m × r utilizzando l'operatore %*% 
+				**DETERMINANTE**
+						E' un valore scalare associato a una matrice quadrata che fornisce informazioni sulla matrice come l'invertibilità che è tale solo se il determinante è zero, il determinante viene calcolato tramite la funzione `det(a)`
+				**INVERSA DI UNA MATRICE**
+					
+ 		 
 		
