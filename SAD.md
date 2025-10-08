@@ -138,5 +138,5 @@
 		![[Pasted image 20251008143733.png]]
 		-Stacked barPlot
 		![[Pasted image 20251008143914.png]]
-		
+		Supponiamo ora di avere una matrice di dati numerici, a partire da essa è possibile 
 		 
