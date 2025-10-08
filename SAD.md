@@ -68,7 +68,18 @@
 				 **INVERSA**
 					 è una matrice che moltiplicata per la matrice originale fornisce la matrice di identità, è possibile calcolare in R l'inversa di una matrice quadrata `solve(a)`
 					 
-**AUTOVETTORI**
+**AUTOVETTORI E AUTOVALORI**
 	R consente di determinare gli autovettori di una matrice quadrata A di ordine n
 	Sia A una matrice quadrata n×m, v è chiamato **autovettore** se esiste un numero $\lambda$ tale che valga la relazione $A * v = \lambda * v$ ciò equivale a richiedere che $(A-\lambda I)v = 0$ dove $I$ è la matrice di identità ammette soluzioni non nulle se e solo se $det(A-\lambda I) = 0$ , questo vuol dire che quando la matrice A agisce sull'autovettore v il risultato è un vettore parallelo a v scalato di un fattore $\lambda$
+	Gli autovettori rappresentano le direzioni le quali una trasformazione lineare agisce semplicemente come una dilatazione o una compressione, l'autovalore associa a quanto viene dilatato o compresso l'autovalore nella sua direzione:
+	- Se $\lambda>1$ la trasformazione allunga il vettore
+	- Se $0<\lambda>1$ la trasformazione accorcia il vettore
+	- Se $\lambda = 1$ il vettore è invariato 
+	- Se $\lambda = 0$ il vettore viene trasformato nel vettore nullo
+	- Se $\lambda<0$ il vettore viene invertito nella sua direzione 
+	L'autovettore viene prevalentemente utilizzato nell'analisi statistica per ridurre la dimensionalità e trovare le direzioni principali di varianza
+	In R funzione `eigen(A)` calcola gli autovalori e gli autovettori di una matrice A, il risultato è una lista di due componenti:
+	- Un vettore di nome **values** contenente gli autovalori 
+	- Una matrice di nome **vectors** che contiene i corrispondenti autovettori sulle colonne
+	Questi due componenti possono essere usati in istruzioni di assegnazione utilizzando `eigen(A)$values` e `eigen(A)$vectors` rispettivamente.
  		
