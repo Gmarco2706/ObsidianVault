@@ -48,4 +48,10 @@
 	**LISTE**
 		Una lista è una struttura dati in R che può contenere **elementi eterogenei** a differenza degli array. Nella pratica array e vettori possono risultare molti simili, molto spesso gli array vengono indicati come **vector structure** semplicemente un array apre alla possibilità di specificare un ulteriore parametro che ne definisce la dimensione.
 		 In particolare in un array tridimensionale "a"  `a[i,j,k]` è l'elemento nella posizione (i,j,k) dell'array, un array tridimensionale di dimensione n × m × r è visto come una sovrapposizione di r array bidimensionali di dimensione n×m
+	 **ARRAY**
+		 La sostanziale differenza tra array e vettori è il fatto che gli array possono avere più dimensioni, un array viene creato tramite `array()` specificando le dimensioni.
+		 Gli array sono utili quando è necessario fornire differenti informazioni per identificare un elemento, una matrice non è che un array bidimensionale di elementi univocamente determinati da una coppia di numeri interi ovvero gli indici di riga e colonna.
+		 **MATRICI**
+			 se si vuole costruire una matrice n 
+		 
 		
