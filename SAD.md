@@ -48,3 +48,4 @@
 	**LISTE**
 		Una lista è una struttura dati in R che può contenere **elementi eterogenei** a differenza degli array. Nella pratica array e vettori possono risultare molti simili, molto spesso gli array vengono indicati come **vector structure** semplicemente un array apre alla possibilità di specificare un ulteriore parametro che ne definisce la dimensione.
 		 In particolare in un array tridimensionale "a"  `a[i,j,k]` è l'elemento nella posizione (i,j,k) dell'array, un array tridimensionale di dimensione n × m × r è visto come una sovrapposizione di r array bidimensionali di dimensione n×m
+		
