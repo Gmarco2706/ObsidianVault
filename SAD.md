@@ -82,4 +82,13 @@
 	- Un vettore di nome **values** contenente gli autovalori 
 	- Una matrice di nome **vectors** che contiene i corrispondenti autovettori sulle colonne
 	Questi due componenti possono essere usati in istruzioni di assegnazione utilizzando `eigen(A)$values` e `eigen(A)$vectors` rispettivamente.
- 		
+#STATISTICA_DESCRITTIVA
+**STATISTICA DESCRITTIVA**
+	La statistica nella ricerca è formata da quattro parti fondamentali 
+	- Raccolta dati
+	- Elaborazione dei dati 
+	- Descrizione dei dati
+	La statistica si differenzia in due branche:
+	-**Descrittiva** che si occupa della presentazione e sintesi dei dati 
+	 -**Inferenziale** che permette di trasferire le informazioni ottenute su un campione all'intera popolazione
+	La statistica descrittiva è l'analisi dei fenomeni osservabili, queste analisi vengono fatte attraverso **l'osservazione del comportamento** delle caratteristiche **visibili** di un generico fenomeno. Dall'osservazione possiamo **misurare, contare e osservare** i valori assunti da X e possiamo analizzare le caratteristiche di un fenomeno ovvero **associare una variabile di ogni caratteristica osservabile di un fenomeno**.
