@@ -100,4 +100,6 @@
 	 - Percentili e quantili 
 	 - Frequenze e percentuali
 	**GRAFICI IN R**
-		R è dotato di un ambiente grafico per la creazione dei grafici
+		R è dotato di un ambiente grafico per la creazione dei grafici.
+		**GRAFICI PER VETTORI**
+			
