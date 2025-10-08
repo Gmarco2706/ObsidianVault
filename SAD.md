@@ -107,4 +107,6 @@
 			![[Pasted image 20251008141327.png]]
 			Possiamo anche procedere tramite la funzione `lines()` che viene utilizzato per aggiungere linee a un grafico esistente, molto utili quando si vogliono sovrapporre ad un grafico precedentemente creato con `plot()`
 	 **SERIE TEMPORALI**
-		 Una serie temporale è una sequenza di osservazioni di una variabile raccolte e registrate ad intervalli di tempo regolari, l'obiettivo è quello di analizzare i dati per identificare pattern o tendenze che possano aiutare a fare previsioni sul futuro **(forecasting)** 
+		 Una serie temporale è una sequenza di osservazioni di una variabile raccolte e registrate ad intervalli di tempo regolari, l'obiettivo è quello di analizzare i dati per identificare pattern o tendenze che possano aiutare a fare previsioni sul futuro **(forecasting)**.
+		 Una **serie temporale univariata** analizza **una sola variabile** misurata nel tempo, ponendo l'attenzione sulla dinamica temporale di una singola quantità![[Pasted image 20251008142217.png]]
+		 Una serie temporale può essere memorizzata in un vettore **se i dati sono univariati** o  in una matrice se sono **multivariati**, R dispone di una specifica funzione `ts()` per rappresentare i valori di una serie temporale insieme ad alcune altre caratteristiche
