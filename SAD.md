@@ -68,6 +68,7 @@
 				 **INVERSA**
 					 è una matrice che moltiplicata per la matrice originale fornisce la matrice di identità, è possibile calcolare in R l'inversa di una matrice quadrata `solve(a)`
 					 
-	**AUTOALORI E AUTOVETTORI**
- 		 
-		
+**AUTOVETTORI**
+	R consente di determinare gli autovettori di una matrice quadrata A di ordine n
+	Sia A una matrice quadrata n×m, v è chiamato **autovettore** se esiste un numero $\lambda$ tale che valga la relazione $A * v = \lambda * v$ ciò equivale a richiedere che $(A-\lambda I)v = 0$ dove $I$ è la matrice di identità ammette soluzioni non nulle se e solo se $det(A-\lambda I) = 0$ , questo vuol dire che quando la matrice A agisce sull'autovettore v il risultato è un vettore parallelo a v scalato di un fattore $\lambda$
+ 		
