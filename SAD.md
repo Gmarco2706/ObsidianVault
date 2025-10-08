@@ -102,4 +102,9 @@
 	**GRAFICI IN R**
 		R è dotato di un ambiente grafico per la creazione dei grafici.
 		**GRAFICI PER VETTORI**
-			
+			Consideriamo un vettore x contenente un tipo di dato quantitativo, ossia numeri allora possiamo usare la funzione `plot(x)` che illustra l'andamento dei valori assoluti del vettore rispetto ai relativi indici
+			![[Pasted image 20251008141221.png]]connettendo i punti mediante linee possiamo creare una **serie storica** dei dati visualizzati utilizzando la funzione `plot()` con `type = 1` che permette di creare le linee
+			![[Pasted image 20251008141327.png]]
+			Possiamo anche procedere tramite la funzione `lines()` che viene utilizzato per aggiungere linee a un grafico esistente, molto utili quando si vogliono sovrapporre ad un grafico precedentemente creato con `plot()`
+	 **SERIE TEMPORALI**
+		 Una serie temporale è una sequenza di osservazioni di una variabile raccolte e registrate ad intervalli di tempo regolari, l'obiettivo è quello di analizzare i dati per identificare pattern o tendenze che possano aiutare a fare previsioni sul futuro **(forecasting)** 
