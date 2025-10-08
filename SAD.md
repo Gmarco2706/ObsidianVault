@@ -92,3 +92,12 @@
 	-**Descrittiva** che si occupa della presentazione e sintesi dei dati 
 	 -**Inferenziale** che permette di trasferire le informazioni ottenute su un campione all'intera popolazione
 	La statistica descrittiva è l'analisi dei fenomeni osservabili, queste analisi vengono fatte attraverso **l'osservazione del comportamento** delle caratteristiche **visibili** di un generico fenomeno. Dall'osservazione possiamo **misurare, contare e osservare** i valori assunti da X e possiamo analizzare le caratteristiche di un fenomeno ovvero **associare una variabile di ogni caratteristica osservabile di un fenomeno**.
+	 La statistica descrittiva è una branca della statistica che si concentra sulla **raccolta**, sull'**organizzazione**, sull'**analisi** e sulla **presentazione dei dati** in modo da riassumere e descrivere le principali caratteristiche di un insieme di dati, le principali tematiche di cui si occupa sono:
+	 - Misure di centralità (media campionaria, mediana, moda)
+	 - Misure di dispersione (varianza, derivazione standard)
+	 - Grafici e tabelle
+	 - Misura della forma della distribuzione 
+	 - Percentili e quantili 
+	 - Frequenze e percentuali
+	**GRAFICI IN R**
+		R è dotato di un ambiente grafico per la creazione dei grafici
