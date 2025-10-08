@@ -138,5 +138,7 @@
 		![[Pasted image 20251008143733.png]]
 		-Stacked barPlot
 		![[Pasted image 20251008143914.png]]
-		Supponiamo ora di avere una matrice di dati numerici, a partire da essa è possibile 
+		Supponiamo ora di avere una matrice di dati numerici, a partire da essa è possibile creare dei vettori contenenti gli elementi delle singole colonne, le unità di misura in questo caso sono importanti dato che spesso dobbiamo procedere ad una standardizzazione dei dati per avere dei numeri puri, ossia privi di una unità di misura, un semplice modo di standardizzazione è quello di dividere gli elementi di ogni colonna per la somma dei valori della colonna presa in questione.
+	**SCATTERPLOT**
+		
 		 
