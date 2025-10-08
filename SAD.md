@@ -140,5 +140,5 @@
 		![[Pasted image 20251008143914.png]]
 		Supponiamo ora di avere una matrice di dati numerici, a partire da essa è possibile creare dei vettori contenenti gli elementi delle singole colonne, le unità di misura in questo caso sono importanti dato che spesso dobbiamo procedere ad una standardizzazione dei dati per avere dei numeri puri, ossia privi di una unità di misura, un semplice modo di standardizzazione è quello di dividere gli elementi di ogni colonna per la somma dei valori della colonna presa in questione.
 	**SCATTERPLOT**
-		
+		Consideriamo un campione costituito da n coppie di osservazioni di **tipo quantitativo** Le relazioni tra coppie di dati quantitativi possono essere rappresentate mediante **diagrammi di dispersione (scatterplot)** in cui ogni coppia di osservazioni viene rappresentata sotto forma di **un punto in un piano euclideo**, dopo aver scelto la variabile da porre sulle ascisse **variabile dipendente** e la variabile da porre sulle ordinate (variabile indipendente), si disegnano dei punti in corrispondenza delle coppie, il risultato finale è una nuvola di punti che può essere ottenuto con `plot(x,y)` 
 		 
