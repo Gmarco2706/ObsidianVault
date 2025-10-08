@@ -62,10 +62,12 @@
 			 **OPERAZIONI**
 				 R interpreta i suoi vettori come vettori colonna, per effettuare una trasposizione di un vettore o di una matrice si usa la funzione `t()` di trasposizione, sui vettori e sulle matrici delle stesse dimensioni si applicano le usuali operazioni aritmetiche come somma prodotto differenza ecc.
 				 **PRODOTTO MATRICIALE**
-					 R fornisce la possibilità di effettuare il prodotto matriciale tra due matrici a di dimensioni n × m e b di dimensione m × r utilizzando l'operatore %*% 
-				**DETERMINANTE**
-						E' un valore scalare associato a una matrice quadrata che fornisce informazioni sulla matrice come l'invertibilità che è tale solo se il determinante è zero, il determinante viene calcolato tramite la funzione `det(a)`
-				**INVERSA DI UNA MATRICE**
-					
+					 R fornisce la possibilità di effettuare il prodotto matriciale tra due matrici a di dimensioni n × m e b di dimensione m × r utilizzando l'operatore  `%*%`
+				 DETERMINANTE
+						E' un valore scalare associato a una matrice quadrata che fornisce informazioni sulla matrice come l'invertibilità che è tale solo se il determinante è zero, il determinante viene calcolato tramite la funzione `det(a)`  
+				 **INVERSA**
+					 è una matrice che moltiplicata per la matrice originale fornisce la matrice di identità, è possibile calcolare in R l'inversa di una matrice quadrata `solve(a)`
+					 
+	**AUTOALORI E AUTOVETTORI**
  		 
 		
