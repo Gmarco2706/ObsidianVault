@@ -160,4 +160,4 @@
 			 **La frequenza relativa cumulata** è la proporzione di osservazioni che hanno un valore inferiore o uguale a un determinato valore, ovvero la somma delle frequenze relative fino a quel punto nella distribuzione.
 		**FREQUENZE NEI DATI**
 			**Gestione dei dati mancanti**: quando ci sono valori mancanti, si può usare la frequenza assoluta delle categorie per decidere come imputare i valori mancanti, es. sostituire i valori mancanti con categoria più frequente nei dati categoriali
-			 
+			**Ribilanciamento dei dataset sbilanciati**: Nei problemi di classificazione binaria o multiclass sbilanciati, le frequenze relative delle classi vengono usate per bilanciare i dati applicando tecniche come **downsampling** (ridurre il numero di campioni della classe maggioritaria) o **upsampling** (replicare campioni della classe minoritaria)
