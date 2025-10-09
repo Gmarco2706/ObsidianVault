@@ -144,4 +144,5 @@
 		![[Pasted image 20251008151053.png]]
 		 La funzione `pairs()` è in grado di visualizzare in un'unica finestra grafica una pluralità di grafici per punti ottenuti in relazione a tutte le coppie di variabili quantitative definite all'interno di un dataframe
 	**GRAFICI DI FREQUENZA E CONTIGENZA**
-	
+		**DISTRIBUZIONE DI FREQUENZA**
+			consideriamo una variabile X e indichiamo con z
