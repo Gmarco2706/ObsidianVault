@@ -156,5 +156,5 @@
 			$Frequenza relativa = \frac {Numero totale di osservazioni}{Frequenza assoluta dell'evento}$
 			 In R la costruzione di una distribuzione di frequenza si fa tramite `table()` che crea una **tabella di contingenza** che mostra la frequenza assoluta degli elementi unici di un vettore, la **tabella di contingenza** è una tabella che riassume la distribuzione congiunta di due o più variabili categoriali, mostrando frequenze assolute o relative con cui si verificano le combinazioni dei livelli delle variabili.
 			 **La frequenza assoluta cumulata** rappresenta il numero totale di osservazioni che hanno un valore inferiore o uguale a un determinato valore in un insieme di dati, ovvero la somma delle frequenze assolute fino a quel punto nella  distribuzione
-			 $N_i = n_1 + n_2 + ... + n_i$, fornisce un'idea di quante osservazioni si sono accumulate fino a un certo valore, R per calcolare la frequenza assoluta cumulata si usa **cumsum()** 
-			 **La frequenza relativa cumulata** è la proporzione di osservazioni che hanno un valore inferiore o uguale a un determinato valore, ovvero la somma delle frequenze relative fino a quel punto nella distribuzione, 
+			 $N_i = n_1 + n_2 + ... + n_i$, fornisce un'idea di quante osservazioni si sono accumulate fino a un certo valore, R per calcolare la frequenza assoluta cumulata si usa **cumsum()**.
+			 **La frequenza relativa cumulata** è la proporzione di osservazioni che hanno un valore inferiore o uguale a un determinato valore, ovvero la somma delle frequenze relative fino a quel punto nella distribuzione,  
