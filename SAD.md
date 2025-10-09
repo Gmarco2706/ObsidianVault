@@ -148,4 +148,8 @@
 			consideriamo una variabile X e indichiamo con $z_1, z_2, z_3 .. z_k$ le modalità distinte da essa assunte, se la variabile X:
 			- è **qualitativa** le modalità indicano delle qualità distinte degli individui
 			- è **quantitativa** le modalità sono dei numeri reali distinti
-			Prendiamo un campione $x_1, x_2 ... x_n$ costituito da n osservazioni di X, se indichiamo con $n_i$ il numero di volte in cui ciascuna osservazione di $z_i$ è presente nel campione (frequenza assoluta) allora l'insieme ${(z_i,n_i),i = 1, 2 ...,k}$ si chiama **distribuzione di frequenza**
+			Prendiamo un campione $x_1, x_2 ... x_n$ costituito da n osservazioni di X, se indichiamo con $n_i$ il numero di volte in cui ciascuna osservazione di $z_i$ è presente nel campione (frequenza assoluta) allora l'insieme ${(z_i,n_i),i = 1, 2 ...,k}$ si chiama **distribuzione di frequenza** ovvero l'insieme formato dalle coppie di valore assunto dalla variabile e frequenza assoluta
+			![[Pasted image 20251009114435.png]]
+			![[Pasted image 20251009114513.png]]
+			Se non esistono dati mancanti, la somma delle frequenze assolute è sempre uguale alla numerosità del campione $n = n_1 + n_2 + ... + n_k$ 
+			La **frequenza relativa** 
