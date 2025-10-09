@@ -143,3 +143,5 @@
 		Consideriamo un campione costituito da n coppie di osservazioni di **tipo quantitativo** Le relazioni tra coppie di dati quantitativi possono essere rappresentate mediante **diagrammi di dispersione (scatterplot)** in cui ogni coppia di osservazioni viene rappresentata sotto forma di **un punto in un piano euclideo**, dopo aver scelto la variabile da porre sulle ascisse **variabile dipendente** e la variabile da porre sulle ordinate (variabile indipendente), si disegnano dei punti in corrispondenza delle coppie, il risultato finale è una nuvola di punti che può essere ottenuto con `plot(x,y)`, il grafico ottenuto mira ad evidenziare se le coppie di punti presentano una regolarità e tende ad evidenziare eventuali **relazioni tra le variabili** 
 		![[Pasted image 20251008151053.png]]
 		 La funzione `pairs()` è in grado di visualizzare in un'unica finestra grafica una pluralità di grafici per punti ottenuti in relazione a tutte le coppie di variabili quantitative definite all'interno di un dataframe
+	**GRAFICI DI FREQUENZA E CONTIGENZA**
+	
