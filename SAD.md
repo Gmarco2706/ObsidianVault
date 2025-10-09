@@ -146,3 +146,6 @@
 	**GRAFICI DI FREQUENZA E CONTIGENZA**
 		**DISTRIBUZIONE DI FREQUENZA**
 			consideriamo una variabile X e indichiamo con $z_1, z_2, z_3 .. z_k$ le modalità distinte da essa assunte, se la variabile X:
+			- è **qualitativa** le modalità indicano delle qualità distinte degli individui
+			- è **quantitativa** le modalità sono dei numeri reali distinti
+			Prendiamo un campione $x_1, x_2 ... x_n$ costituito da n osservazioni di X, se indichiamo con $n_i$ il numero di volte in cui ciascuna osservazione di $z_i$ è presente nel campione (frequenza assoluta) allora l'insieme ${(z_i,n_i),i = 1, 2 ...,k}$ si chiama **distribuzione di frequenza**
