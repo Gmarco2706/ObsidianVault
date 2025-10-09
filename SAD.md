@@ -159,4 +159,5 @@
 			 $N_i = n_1 + n_2 + ... + n_i$, fornisce un'idea di quante osservazioni si sono accumulate fino a un certo valore, R per calcolare la frequenza assoluta cumulata si usa **cumsum()**.
 			 **La frequenza relativa cumulata** è la proporzione di osservazioni che hanno un valore inferiore o uguale a un determinato valore, ovvero la somma delle frequenze relative fino a quel punto nella distribuzione.
 		**FREQUENZE NEI DATI**
-			
+			**Gestione dei dati mancanti**: quando ci sono valori mancanti, si può usare la frequenza assoluta delle categorie per decidere come imputare i valori mancanti, es. sostituire i valori mancanti con categoria più frequente nei dati categoriali
+			 
