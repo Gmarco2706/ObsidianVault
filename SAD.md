@@ -158,7 +158,7 @@
 			 **La frequenza assoluta cumulata** rappresenta il numero totale di osservazioni che hanno un valore inferiore o uguale a un determinato valore in un insieme di dati, ovvero la somma delle frequenze assolute fino a quel punto nella  distribuzione
 			 $N_i = n_1 + n_2 + ... + n_i$, fornisce un'idea di quante osservazioni si sono accumulate fino a un certo valore, R per calcolare la frequenza assoluta cumulata si usa **cumsum()**.
 			 **La frequenza relativa cumulata** è la proporzione di osservazioni che hanno un valore inferiore o uguale a un determinato valore, ovvero la somma delle frequenze relative fino a quel punto nella distribuzione.
-			 Le frequenze assolute e relative possono essere calcolate anche per variabili quantitative sempre che il numero di 
+			 Le frequenze assolute e relative possono essere calcolate anche per variabili quantitative sempre che il numero di modalità distinte sia ben definito, 
 		**FREQUENZE NEI DATI**
 			**Gestione dei dati mancanti**: quando ci sono valori mancanti, si può usare la frequenza assoluta delle categorie per decidere come imputare i valori mancanti, es. sostituire i valori mancanti con categoria più frequente nei dati categoriali
 			**Ribilanciamento dei dataset sbilanciati**: Nei problemi di classificazione binaria o multiclass sbilanciati, le frequenze relative delle classi vengono usate per bilanciare i dati applicando tecniche come **downsampling** (ridurre il numero di campioni della classe maggioritaria) o **upsampling** (replicare campioni della classe minoritaria)
