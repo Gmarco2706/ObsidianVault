@@ -152,4 +152,6 @@
 			![[Pasted image 20251009114435.png]]
 			![[Pasted image 20251009114513.png]]
 			Se non esistono dati mancanti, la somma delle frequenze assolute è sempre uguale alla numerosità del campione $n = n_1 + n_2 + ... + n_k$ 
-			La **frequenza relativa** 
+			La **frequenza relativa** di un evento è il rapporto tra la frequenza assoluta di quell'evento e il numero totale di osservazioni, viene espressa come frazione o percentuale e indica la proporzione con cui un determinato evento si verifica
+			$Frequenza relativa = \frac {Numero totale di osservazioni}{Frequenza assoluta dell'evento}$
+			 In R la costruzione di una distribuzione di frequenza si fa tramite `table()` che crea una **tabella di contingenza** che mostra la frequenza assoluta degli elementi unici di un vettore, la **tabella di contingenza** è una tabella che riassume la distribuzione congiunta di due o più variabili categoriali, mostrando frequenze assolute o relative con cui si verificano le combinazioni dei livelli delle variabili.
