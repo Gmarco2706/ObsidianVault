@@ -177,3 +177,5 @@
 			**Encoding di variabili categoriali**: Le frequenze relative delle categorie possono essere utilizzate per trasformare variabili categoriali in valori numerici, il processo è detto **target-encoding**, questo processo è utili per variabili con molte categorie dove una semplice **one-hot encoding** potrebbe essere insufficiente. 
 			 Ciao prova prova 
 			**Encoding di variabili categoriali**: Le frequenze relative delle categorie possono essere utilizzate per trasformare variabili categoriali in valori numerici, il processo è detto **target-encoding**, questo processo è utili per variabili con molte categorie dove una semplice **one-hot encoding** potrebbe essere insufficiente. 
+			**Encoding di variabili categoriali**: Le frequenze relative delle categorie possono essere utilizzate per trasformare variabili categoriali in valori numerici, il processo è detto **target-encoding**, questo processo è utili per variabili con molte categorie dove una semplice **one-hot encoding** potrebbe essere insufficiente.
+			 Ciao stiamo facendo una prova windows - mac
