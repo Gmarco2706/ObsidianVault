@@ -178,3 +178,4 @@
 			**Gestione dei dati mancanti**: quando ci sono valori mancanti, si può usare la frequenza assoluta delle categorie per decidere come imputare i valori mancanti, es. sostituire i valori mancanti con categoria più frequente nei dati categoriali
 			**Ribilanciamento dei dataset sbilanciati**: Nei problemi di classificazione binaria o multiclass sbilanciati, le frequenze relative delle classi vengono usate per bilanciare i dati applicando tecniche come **downsampling** (ridurre il numero di campioni della classe maggioritaria) o **upsampling** (replicare campioni della classe minoritaria)
 			**Encoding di variabili categoriali**: Le frequenze relative delle categorie possono essere utilizzate per trasformare variabili categoriali in valori numerici, il processo è detto **target-encoding**, questo processo è utili per variabili con molte categorie dove una semplice **one-hot encoding** potrebbe essere insufficiente.
+			 Ciao stiamo facendo una prova windows - mac
