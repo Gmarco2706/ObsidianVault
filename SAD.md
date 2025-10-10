@@ -48,6 +48,18 @@
 	**LISTE**
 		Una lista è una struttura dati in R che può contenere **elementi eterogenei** a differenza degli array. Nella pratica array e vettori possono risultare molti simili, molto spesso gli array vengono indicati come **vector structure** semplicemente un array apre alla possibilità di specificare un ulteriore parametro che ne definisce la dimensione.
 		 In particolare in un array tridimensionale "a"  `a[i,j,k]` è l'elemento nella posizione (i,j,k) dell'array, un array tridimensionale di dimensione n × m × r è visto come una sovrapposizione di r array bidimensionali di dimensione n×m
+	**MATRICI**
+		 **cbind() e bind()**
+			 permettono di creare opportune matrici componendo vettori di uguale lunghezza e matrici delle stesse dimensioni, `cbind()`  usa i vettori per creare le colonne mentre `rbind()` per creare le colonne
+		 **daig()**
+		 La funzione `diag()` cambia funzionalità in base al parametro di input:
+		 - `diag(v)` con "v" vettore è usata per creare una matrice diagonale con gli elementi del vettore sulla diagonale e i restanti elementi nulli
+		 - `diag(a)` con "a" matrice fornisce un vettore costituito dagli elementi della diagonale principale della matrice
+		 - `diag(n)` con "n" intero fornisce la matrice di identità n × n
+		**rowsname e colnames**
+			`rownames(a)` restituisce o imposta i nomi delle righe di una matrice o di un dataframe
+			 `colnames(a)` restituisce o imposta i nomi delle colonne di una matrice o di un dataframe
+		**OPERAZIONI TRA MATRICI**
 	 **ARRAY**
 		 La sostanziale differenza tra array e vettori è il fatto che gli array possono avere più dimensioni, un array viene creato tramite `array()` specificando le dimensioni.
 		 Gli array sono utili quando è necessario fornire differenti informazioni per identificare un elemento, una matrice non è che un array bidimensionale di elementi univocamente determinati da una coppia di numeri interi ovvero gli indici di riga e colonna.
@@ -164,3 +176,4 @@
 			**Ribilanciamento dei dataset sbilanciati**: Nei problemi di classificazione binaria o multiclass sbilanciati, le frequenze relative delle classi vengono usate per bilanciare i dati applicando tecniche come **downsampling** (ridurre il numero di campioni della classe maggioritaria) o **upsampling** (replicare campioni della classe minoritaria)
 			**Encoding di variabili categoriali**: Le frequenze relative delle categorie possono essere utilizzate per trasformare variabili categoriali in valori numerici, il processo è detto **target-encoding**, questo processo è utili per variabili con molte categorie dove una semplice **one-hot encoding** potrebbe essere insufficiente. 
 			 Ciao prova prova 
+			**Encoding di variabili categoriali**: Le frequenze relative delle categorie possono essere utilizzate per trasformare variabili categoriali in valori numerici, il processo è detto **target-encoding**, questo processo è utili per variabili con molte categorie dove una semplice **one-hot encoding** potrebbe essere insufficiente. 
